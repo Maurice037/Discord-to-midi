@@ -7,7 +7,7 @@ Please install node beforehand
 
 Make own commands an midi actions with this code:
 ```javascript
- if (msg.content === 'COMMAND') {
+ if (msg.content.toLowerCase() === 'COMMAND') {
         //answer on message 
         msg.reply('REPLY MESSAGE');
         //midi event
