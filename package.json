@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1,
+    "start": "node index.js"
   },
-  "author": "",
+  "author": "Maurice",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.3",
-    "easymidi": "^2.0.4",
-    "midi": "^1.0.4"
+    "easymidi": "^2.0.4"
   }
 }
